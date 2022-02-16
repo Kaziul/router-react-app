@@ -35,16 +35,7 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/review" element={<Review />}></Route>
-          <Route path="/inventory" element={<Inventory />}></Route>
-          <Route exact path="/" element={< />}></Route>
-          <Route exact path="/product/:productKey" element={<ProductDetail />}></Route>
-          <Route path="*" element={<NotFound />}></Route>
-        </Routes>
-      </BrowserRouter> */}
+      
     </div>
   );
 }
